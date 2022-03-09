@@ -1,0 +1,12 @@
+version=0.1
+ [default.global.parameters]
+ stack_name = "example-function"
+ 
+ [default.deploy.parameters]
+ s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-srdnp8v7g9sg"
+ s3_prefix = "example-function"
+ region = "us-east-2"
+ confirm_changeset = false
+ tags = "project=\"example-function\" stage=\"production\""
+ capabilities = "CAPABILITY_IAM"
+ image_repositories = []
